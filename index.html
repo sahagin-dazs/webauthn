@@ -14,7 +14,10 @@
         <label for="displayName">Display Name:</label>
         <input type="text" id="displayName" name="displayName"><br><br>
         <input type="button" value="Register" onclick="registerCredential()">
+        <input type="button" value="Authenticate" onclick="authenticate()">        
     </form>
-</body>
 
+    <div style="margin-top:40px;">Registration status: <span id="registration"></span></div>
+    <div>Authentication status: <span id="authentication"></span></div>
+</body>
 </html>
