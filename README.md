@@ -1,2 +1,2 @@
 # webauthn
-Implement WebAuthN into vanilla JS application
+Implement WebAuthn into vanilla JS application
